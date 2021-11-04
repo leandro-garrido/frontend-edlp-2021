@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receta 1</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        width: 100%;
+      }
+
+      nav li {
+        float: left;
+      }
+
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav li a:hover {
+        background-color: #04aa6d;
+      }
+
+      .titulo {
+        background-image: url("https://sevilla.abc.es/gurme/wp-content/uploads/sites/24/2012/01/comida-rapida-casera.jpg");
+        background-size: 100%;
+        height: 800px;
+        font-size: 50px;
+        font-family: "Courier New", Courier, monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #04aa6d;
+      }
+
+      .titulo h1 {
+        background-color: rgb(51, 51, 51, 0.6);
+        padding: 14px 16px;
+      }
+
+      section {
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgb(255, 234, 234);
+      }
+
+      footer {
+        background-color: #333;
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-around;
+        color: white;
+      }
+
+      footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      footer li {
+        float: left;
+      }
+
+      footer li a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      footer li a:hover {
+        background-color: #04aa6d;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="default.asp">Home</a></li>
+          <li><a href="news.asp">News</a></li>
+          <li><a href="contact.asp">Contact</a></li>
+          <li><a href="about.asp">About</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <h1>Nombre de la receta</h1>
+      </div>
+    </header>
+    <section class="sec1">
+      <div>
+        <h2>Descripcion</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sed
+          voluptatibus amet, voluptate officiis, doloremque nesciunt incidunt
+          iusto minima soluta aperiam placeat fuga praesentium assumenda iure at
+          suscipit eveniet in!
+        </p>
+      </div>
+      <h2>Ingredientes</h2>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+    </section>
+
+    <section class="sec2">
+      <h2>Pasos a realizar</h2>
+      <ol>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quia
+          vel recusandae saepe. Voluptatum quia optio error aliquid voluptas
+          iusto totam iste, et veritatis dolor placeat provident quibusdam ex
+          recusandae!
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quia
+          vel recusandae saepe. Voluptatum quia optio error aliquid voluptas
+          iusto totam iste, et veritatis dolor placeat provident quibusdam ex
+          recusandae!
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quia
+          vel recusandae saepe. Voluptatum quia optio error aliquid voluptas
+          iusto totam iste, et veritatis dolor placeat provident quibusdam ex
+          recusandae!
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quia
+          vel recusandae saepe. Voluptatum quia optio error aliquid voluptas
+          iusto totam iste, et veritatis dolor placeat provident quibusdam ex
+          recusandae!
+        </li>
+        <li>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quia
+          vel recusandae saepe. Voluptatum quia optio error aliquid voluptas
+          iusto totam iste, et veritatis dolor placeat provident quibusdam ex
+          recusandae!
+        </li>
+      </ol>
+      <h2>Videos de referencia</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/vRu7yWotnws"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section>
+      <div>
+        <h2>Contacto</h2>
+        <form action="post">
+          <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" />
+          </div>
+          <div>
+            <label for="mail">Email: </label>
+            <input type="email" name="mail" id="mail" />
+          </div>
+          <div>
+            <label for="descripcion">Descripcion: </label>
+            <input type="text" name="descripcion" id="descripcion" />
+          </div>
+          <div>
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <h2>Mis redes sociales</h2>
+        <ul>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Mi ubicación</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0167132806387!2d-58.38376444897391!3d-34.60373888036358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1630290126002!5m2!1ses-419!2sar"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
