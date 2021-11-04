@@ -1,0 +1,24 @@
+.color-nav{
+    background-color:coral !important;
+}
+
+.nav-link {
+    color:darkgreen !important;
+}
+
+.carousel-item {
+    width:100%;
+    height: 500px;
+}
+
+.carousel {
+    margin-bottom: 20px;
+}
+
+.no-border{
+    border: none;
+}
+
+.pichu {
+    width: 18rem;
+}
