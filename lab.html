@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+    <title>Big Cuac</title>
+    <style>
+        .carousel-item {
+            width: 100%;
+
+        }
+
+        @media (min-width: 425px) {
+            .carousel-item {
+                width: 100%;
+                height: 300px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .carousel-item {
+                width: 100%;
+                height: 500px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .carousel-item {
+                width: 100%;
+                height: 500px;
+            }
+        }
+
+
+        .no-borde {
+            border: none;
+            padding: 0;
+        }
+
+        .carousel {
+            margin-bottom: 50px;
+        }
+
+        .ima {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://i.pinimg.com/originals/30/3c/d5/303cd5c4e2169130a9ddd90bfab76982.png" alt=""
+                        width="30" height="24" class="d-inline-block align-text-top" />
+                    The Big
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">¿Quienes somos?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <!-- Inicio Carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.clarin.com/2021/06/17/LC25eDtCT_1200x630__1.jpg" class="d-block w-100"
+                        alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="https://estaticos.miarevista.es/media/cache/1140x_thumb/uploads/images/gallery/59a9469e5bafe86b2d3c9876/hamburguesa-ppal.jpg"
+                        class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="https://easyrecetas.com/wp-content/uploads/2020/05/Receta-de-Hamburguesa-Cl%C3%A1sica.jpg"
+                        class="d-block w-100" alt="..." />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Fin Carousel-->
+
+
+        <!-- Inicio contenedor principal-->
+        <div class="container">
+            <!-- esferas-->
+            <article>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card no-borde mx-auto d-block" style="width: 18rem">
+                            <img src="https://www.wfla.com/wp-content/uploads/sites/71/2021/05/3gUTzr3g.png?w=1280"
+                                class="card-img-top rounded-circle" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card no-borde mx-auto d-block" style="width: 18rem">
+                            <img src="https://www.wfla.com/wp-content/uploads/sites/71/2021/05/3gUTzr3g.png?w=1280"
+                                class="card-img-top rounded-circle" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card no-borde mx-auto d-block" style="width: 18rem">
+                            <img src="https://www.wfla.com/wp-content/uploads/sites/71/2021/05/3gUTzr3g.png?w=1280"
+                                class="card-img-top rounded-circle" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <hr>
+
+            <!-- cuadrados-->
+            <article>
+                <div class="row">
+                    <div class="card no-borde">
+                        <div class="row g-0">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <img src="https://www.wfla.com/wp-content/uploads/sites/71/2021/05/3gUTzr3g.png?w=1280"
+                                    class="img-fluid ima" alt="...">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="card-title">Card title</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card no-borde">
+                        <div class="row g-0">
+                            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-1">
+                                <img src="https://www.wfla.com/wp-content/uploads/sites/71/2021/05/3gUTzr3g.png?w=1280"
+                                    class="img-fluid ima" alt="...">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="card-title">Card title</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card no-borde">
+                        <div class="row g-0">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <img src="https://www.wfla.com/wp-content/uploads/sites/71/2021/05/3gUTzr3g.png?w=1280"
+                                    class="img-fluid ima" alt="...">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="card-title">Card title</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card no-borde">
+                        <div class="row g-0">
+                            <div class="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-1">
+                                <img src="https://www.wfla.com/wp-content/uploads/sites/71/2021/05/3gUTzr3g.png?w=1280"
+                                    class="img-fluid ima" alt="...">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="card-title">Card title</h2>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <!-- Fin contenedor principal-->
+    </section>
+
+
+    <!-- Inicio footer-->
+    <footer class="bg-dark text-center text-white">
+        <div class="container-fluid">
+            <div class="row p-4">
+                <div class="col-12">
+                    <a class="btn btn-outline-light btn-floating m-1" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href=""><i class="bi bi-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fin footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
